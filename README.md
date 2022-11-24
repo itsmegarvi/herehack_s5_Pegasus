@@ -4,11 +4,11 @@
 
 PROJECT:
 
-Predict the best-suited location for the shop/ATM/Billboard etc. based on geo-location data and visualize on maps.
+Predict the best-suited location for restaurants, based on geo-location data and visualize on maps.
 
 The Solution:
 
-Using multiple ML/DL Model finding the optimal places and using HERE tech services to create a web app which visualizes the locations suitable
+Using multiple ML/DL Model to find the optimal places/restaurants in nearby area by using HERE tech services, create a web app which visualizes the locations suitable
 for the prospect of search.
 
 Product Discription:
