@@ -1,15 +1,15 @@
 # herehack_s5_Pegasus
-## Predicting prime locations for atms/shops and billboards by geolocation analysis
+<!--- Predicting prime locations for atms/shops and billboards by geolocation analysis -->
 
 
-PROJECT:
+Problem Statement/Scenario:
 
 Predict the best-suited location for restaurants, based on geo-location data and visualize on maps.
 
 The Solution:
 
-Using multiple ML/DL Model to find the optimal places/restaurants in nearby area by using HERE tech services, create a web app which visualizes the locations suitable
-for the prospect of search.
+Using machine learning models to predict the optimal places/locations for restaurants in a certain radius to the given location and creating a web app which visualizes 
+the best predicted location on a map with the help of HERE Tech API's .
 
 Product Discription:
 
@@ -18,7 +18,8 @@ The product basically works on the principle of demand and need basis. The web a
 Tech Stack:  
         ● Django      
         ● Python       
-        ● Html,css  
+        ● Html,css 
+        ● JavaScript
         
 Hence , we are constructing a website consists of the folowing pages which will contain the UI part of the project: 
 1) Home 
