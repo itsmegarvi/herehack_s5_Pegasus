@@ -18,7 +18,7 @@ The product basically works on the principle of demand and need basis. The web a
 Tech Stack:  
         ● Django      
         ● Python       
-        ● Html,css 
+        ● Html,css               
         ● JavaScript
         
 Hence , we are constructing a website consists of the folowing pages which will contain the UI part of the project: 
