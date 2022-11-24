@@ -26,8 +26,8 @@ Hence , we are constructing a website consists of the folowing pages which will 
 3) About 
 4) contact
 
-# Code Example
-# How to use?
-# API references
-# TESTS
-# Licence
+// # Code Example
+// # How to use?
+// # API references
+// # TESTS
+// # Licence
