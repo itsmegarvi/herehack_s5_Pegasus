@@ -2,5 +2,20 @@
 
 {% block body %}
 
+<form id="myForm">
+    <label for="locality">locality:</label>
+    <input id="locality">
+    <input id="postSubmit" type="submit" value="Submit">
+</form>
+
+<script>
+    let searchText = document.getElementByID('locality').value;
+        async function search() {
+            let results = await axios.get(`https://geocode.search.hereapi.com/v1/geocode?q={searchText}/&api_key=A1shZUUaf4D_WTo2UQCmZ4Ut5yezRhWnSDdJTY3qz3w`)
+            const data = await results.json();
+
+            return data;
+        }
+</script>
 
 {% endblock %}
