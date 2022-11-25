@@ -1,3 +1,4 @@
+import requests
 from django.shortcuts import render
 
 # Create your views here.
@@ -5,6 +6,7 @@ from django.shortcuts import render
 
 def map(request):
     locality = (request.GET.get('locality'))
+
     # coordinates =
     coordiantes = [(12, 23), (12, 25)]
     context = {
@@ -15,3 +17,7 @@ def map(request):
 
 def index(request):
     return render(request, 'maps/index.html', {})
+
+
+def loco(request):
+    return render(request, 'loco.html', {})
