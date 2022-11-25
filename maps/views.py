@@ -4,7 +4,13 @@ from django.shortcuts import render
 
 
 def map(request):
-    return render(request, 'maps/map.html', {})
+    locality = (request.GET.get('locality'))
+    # coordinates =
+    coordiantes = [(12, 23), (12, 25)]
+    context = {
+        "coordinates": coordiantes
+    }
+    return render(request, 'maps/map.html', context=context)
 
 
 def index(request):
